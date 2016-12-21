@@ -7,6 +7,7 @@ public class IOUtils {
   private IOUtils() {
   }
 
+  //closable
   public static void closeQuietly(Socket sock) {
     // It's same thing as Apache Commons - IOUtils.closeQuietly()
     if (sock != null) {
